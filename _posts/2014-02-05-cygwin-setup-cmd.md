@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Cygwin 命令行自动安装安装说明
+title: Cygwin 命令行自动安装说明
 ---
 #{{ page.title }}
 
