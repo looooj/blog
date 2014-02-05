@@ -1,5 +1,5 @@
 ---
-layout: default-gbk
+layout: default
 title: Cygwin 命令行自动安装安装说明
 ---
 #{{ page.title }}
