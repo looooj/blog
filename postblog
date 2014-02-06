@@ -1,0 +1,8 @@
+cd /d/myprojects/git-hub/blog
+cd _posts
+
+git add .
+git commit -m 'new blog'
+git push origin gh-pages
+
+
