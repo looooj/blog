@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: markdown
 title: Cygwin 命令行自动安装说明
 ---
 #{{ page.title }}
