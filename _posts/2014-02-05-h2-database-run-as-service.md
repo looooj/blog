@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: markdown
 title: h2 database run as service
 ---
 #{{ page.title }}

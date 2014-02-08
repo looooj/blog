@@ -30,5 +30,5 @@ call pkg.bat openssh
 常用的安装包名称
     bash gcc gcc-g++ openssh expect python git curl vim cygrunsrv
 
-更多安装包名称在http://cygwin.com/packages/
+更多安装包名称在<http://cygwin.com/packages/>
 
