@@ -32,3 +32,5 @@ call pkg.bat openssh
 
 更多安装包名称在<http://cygwin.com/packages/>
 
+查找app在哪个package
+cygcheck -p app
