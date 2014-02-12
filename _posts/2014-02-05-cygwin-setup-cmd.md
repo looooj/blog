@@ -1,10 +1,8 @@
 ---
-layout: markdown
+layout: post
 title: Cygwin 命令行自动安装说明
+tags: [cygwin]
 ---
-#{{ page.title }}
-
-
 
 创建下载目录 d:\prog\cy (个人习惯的cy下载目录)
 
