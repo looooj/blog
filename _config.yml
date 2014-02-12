@@ -2,6 +2,7 @@ pygments: true
 encoding: utf-8
 baseurl: /blog
 paginate: 5
+title: MyBlog
 production_url: http://looooj.github.io
 project_name: /blog
 
