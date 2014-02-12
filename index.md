@@ -12,6 +12,3 @@ tagline: Supporting tagline
   {% endfor %}
 </ul>
 
-
-
-
