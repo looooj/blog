@@ -1,7 +1,8 @@
 ---
-layout: default
+layout: post
 title: hello
+category: hello
+tags: [hello]
 ---
-#{{ page.title }}
 hello world git blog
 test
