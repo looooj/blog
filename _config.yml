@@ -5,6 +5,11 @@ title: MyBlog
 production_url: http://looooj.github.io
 project_name: /blog
 
+author :
+  name : looooj
+  email : ljgit@qq.com
+  github : looooj
+
 JB:
   version: 0.3.0
   BASE_PATH: /blog
