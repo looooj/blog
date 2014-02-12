@@ -1,8 +1,10 @@
 ---
-layout: markdown
+layout: post
 title: h2 database run as service
+category: database
+tags: [h2,database]
 ---
-#{{ page.title }}
+
 1) 下载 procrun
 
    参见<http://commons.apache.org/proper/commons-daemon/procrun.html>

@@ -1,9 +1,8 @@
 ---
 title: awk 使用
-layout: markdown
+layout: post
+tags: [awk]
 ---
-#{{page.title}}
-
 
 awk /模式，命令/ 文件
 
