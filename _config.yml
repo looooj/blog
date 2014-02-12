@@ -4,3 +4,22 @@ baseurl: /blog
 paginate: 5
 production_url: http://looooj.github.io
 project_name: /blog
+
+JB:
+  version: 0.3.0
+  BASE_PATH: /blog
+  ASSET_PATH: false
+  
+  archive_path: /archive.html
+  categories_path : /categories.html
+  tags_path : /tags.html
+  atom_path : /atom.xml
+  rss_path : /rss.xml
+  
+  comments :
+    provider : disqus
+    disqus :
+      short_name : looooj
+      
+  sharing :
+    provider : false
