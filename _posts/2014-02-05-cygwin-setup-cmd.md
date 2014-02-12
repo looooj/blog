@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Cygwin 命令行自动安装说明
+category: cygwin
 tags: [cygwin]
 ---
 
