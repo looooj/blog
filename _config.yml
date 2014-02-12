@@ -24,3 +24,10 @@ JB:
       
   sharing :
     provider : false
+    
+  analytics :
+    provider : google 
+    google : 
+      tracking_id : 'UA-48005278-1'    
+    
+     
