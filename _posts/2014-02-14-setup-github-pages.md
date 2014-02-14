@@ -27,9 +27,9 @@ title: Use github pages Setup Your Blog
 
 方法2
 
-  git clone https://github.com/plusjade/jekyll-bootstrap.git tmp
+  git clone https://github.com/plusjade/jekyll-bootstrap.git 
 
-  复制所有的子目录和文件到blog(除了.git)
+  复制jekyll-bootstrap下所有的子目录和文件到blog(除了.git)
 
   修改_config.yml
       
@@ -51,7 +51,7 @@ title: Use github pages Setup Your Blog
     git push origin gh-pages
 
   如果创建失败github会发送邮件给你
- 
+  
   
 
 
