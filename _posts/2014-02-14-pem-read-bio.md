@@ -1,8 +1,8 @@
 ---
 layout: post
 title: openssl PEM\_read\_bio\_
-tags:[openssl,PEM_read_bio]
-category:openssl
+tags: [openssl,PEM_read_bio]
+category: openssl
 ---
 
 openssl PEM\_read\_ 函数是从文件读取pem格式的文件，有时候需要从内存直接读取pem格式，可以使用PEM\_read\_bio\_ 函数
