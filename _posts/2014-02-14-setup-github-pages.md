@@ -31,7 +31,7 @@ title: Use github pages Setup Your Blog
 
   复制jekyll-bootstrap下所有的子目录和文件到blog(除了.git)
 
-  修改_config.yml
+  修改_config.yml， 替换成自己的信息,
       
       title : Jekyll Bootstrap
       author :
@@ -40,20 +40,38 @@ title: Use github pages Setup Your Blog
         github : username
         twitter : username
         feedburner : feedname
+        ...
 
      
-  替换成自己的信息, 
-  如果使用 http://username.github.io/blog作为博客地址,需要设置BASE_PATH=/blog
+  如果使用 http://username.github.io/blog作为博客地址,需要设置BASE_PATH: /blog
+   
+       JB:
+          version: 0.3.0
+          BASE_PATH: /blog
+
+ jekll-bootstrap已经包含disqus和google analytics的支持，只需要配置上short_name和tracking_id
  
-      
+        comments :
+          provider : disqus
+          disqus :
+          short_name : your_short_name
+    
+        analytics :
+          provider : google 
+          google : 
+            tracking_id : 'your tracking_id'    
+
+最后commit 和 push
+
     git add .
     git commit -m 'new blog'
     git push origin gh-pages
 
-  如果创建失败github会发送邮件给你
+如果创建失败github会发送邮件给你
   
   
-
+- yaml 格式 <http://zh.wikipedia.org/zh/YAML>
+- 注册disqus <https://disqus.com/>
 
 
 
