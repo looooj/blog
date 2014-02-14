@@ -1,5 +1,4 @@
 pygments: true
-encoding: utf-8
 baseurl: /blog
 title: MyBlog
 production_url: http://looooj.github.io
