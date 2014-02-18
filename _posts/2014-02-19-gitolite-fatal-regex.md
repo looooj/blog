@@ -1,13 +1,13 @@
 ---
 layout: post
 title: gitolite FATAL Nested quantifiers in regex
-tags: [gitolite FATAL]
+tags: [gitolite]
+category: gitolite
 ---
 
 由于正则表达式书写错误gitolite-admin/conf/gitolite.conf ，gitolite提示错误
 
-    FATAL: Nested quantifiers in regex; marked by <-- HERE in ... <-
- .$/ at /home/git/bin/lib/Gitolite/Conf/Load.pm line 348, <DATA> line 1.
+    FATAL: Nested quantifiers in regex; marked by ... at /home/git/bin/lib/Gitolite/Conf/Load.pm line 348 ...
 
 不能push
 
