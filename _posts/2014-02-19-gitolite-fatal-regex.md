@@ -1,6 +1,6 @@
 ---
 layout: post
-title: gitolite FATAL: Nested quantifiers in regex
+title: gitolite FATAL Nested quantifiers in regex
 tags: [gitolite FATAL]
 ---
 
