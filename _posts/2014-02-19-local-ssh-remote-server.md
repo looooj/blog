@@ -21,3 +21,8 @@ remote server 在外网
       ...
 
 
+
+    socat tcp:localhost:7001 tcp-listen:7002,reuseaddr,fork
+
+    curl http://remote:7002
+
