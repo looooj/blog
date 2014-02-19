@@ -1,7 +1,7 @@
 ---
 layout: post
 title: local ssh remote server
-tags: [ssh]
+tags: [ssh,socat]
 ---
 
 local http server 在内网
