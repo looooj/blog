@@ -2,6 +2,8 @@
 layout: post
 title: Using batch parameters
 ---
+from <http://www.microsoft.com/resources/documentation/windows/xp/all/proddocs/en-us/batch.mspx?mfr=true>
+
 You can use batch parameters anywhere within a batch file to extract information about your environment settings.
 
 Cmd.exe provides the batch parameter expansion variables %0 through %9. When you use batch parameters in a batch file, %0 is replaced by the batch file name, and %1 through %9 are replaced by the corresponding arguments that you type at the command line. To access arguments beyond %9, you need to use the shift command. For more information about the shift command, see Shift The %* batch parameter is a wildcard reference to all the arguments, not including %0, that are passed to the batch file.
