@@ -45,8 +45,8 @@ cygwin环境下执行
 
     git clone git://github.com/sitaramc/gitolite
     mkdir -p ~/bin
-    gitolite/install -to ~/bin
-    gitolite setup -pk admin.pub
+    gitolite install -to ~/bin
+    bin/gitolite setup -pk admin.pub
     exit
 
 退出host，配置 ~/.ssh/config ( c:\users\username\.ssh )
