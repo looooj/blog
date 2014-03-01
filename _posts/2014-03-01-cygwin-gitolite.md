@@ -1,14 +1,15 @@
 ---
 layout: post
-title: Cygwin install gitolite
+title: cygwin install gitolite
 tags: [cygwin,gitolite] 
 ----
 
 
 linux下安装不同之处
 
-##ssh安装
+##sshd安装
 
+需要安装 openssh git cygwin package
 cygwin环境下执行
 
     ssh-host-config -y
@@ -26,11 +27,9 @@ cygwin环境下执行
 其他的步骤和标准流程都一样
 
 
+打开 msysgit bash
 
-
-打开msysgit bash
-
-生成key
+生成 key
 
     ssh-keygen -N '' -f admin
     
@@ -50,10 +49,10 @@ cygwin环境下执行
     gitolite setup -pk admin.pub
     exit
 
-退出host，配置 ~/ssh/config
+退出host，配置 ~/.ssh/config ( c:\users\username\.ssh )
 
     host local-git-admin
-        hostname 192.168.0.20
+        hostname localhost-ip
         user admin
         IdentityFile /path-to/admin
 
