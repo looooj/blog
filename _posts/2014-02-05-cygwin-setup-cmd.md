@@ -17,7 +17,7 @@ tags: [cygwin]
     setup-x86.exe -D -q -a x86 -O -d -l %CYGWIN_LOCAL_DIR% --root %CYGWIN_ROOT_DIR% -s %CYGWIN_SITE_URL% -P %1
     setup-x86.exe -L -a x86 -q -d -l %CYGWIN_LOCAL_DIR% --root %CYGWIN_ROOT_DIR% -s %CYGWIN_SITE_URL% -P %1
     shift
-    :goto check_params
+    goto check_params
 
     :end
     
