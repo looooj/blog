@@ -2,8 +2,7 @@
 layout: post
 title: cygwin install gitolite
 tags: [cygwin,gitolite] 
-----
-
+---
 
 linux下安装不同之处
 
