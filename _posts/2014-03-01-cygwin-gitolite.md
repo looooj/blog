@@ -48,7 +48,7 @@ cygwin环境下执行
     bin/gitolite setup -pk admin.pub
     exit
 
-退出host，配置 ~/.ssh/config ( c:\users\username\.ssh )
+退出host，配置 ~/.ssh/config ( c:\users\username\/.ssh )
 
     host local-git-admin
         hostname localhost-ip
