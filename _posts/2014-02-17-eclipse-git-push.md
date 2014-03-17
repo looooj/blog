@@ -65,7 +65,8 @@ RW
 ##new repo
 
     git init
-
+    echo hello>readme
+    git add .
+    git commit -m 'hello'    
     git remote add origin git@host:project_path
-
     git push origin master

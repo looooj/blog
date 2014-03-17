@@ -60,5 +60,5 @@ clone
 
     git clone git@local-git-admin:gitolite-admin
 
-     
+
  
