@@ -15,12 +15,11 @@ session超时之后会返回login页面，客户端无法解析
         
             HttpServletRequest req = WebUtils.toHttp(request);
             String xmlHttpRequest = req.getHeader("X-Requested-With");
-        
-            if ( xmlHttpRequest.equalsIgnoreCase("XMLHttpRequest") )
-            {
-                HttpServletResponse res = WebUtils.toHttp(response);
-                res.sendError(401);
-                return false;
+            if ( xmlHttpRequest != null )
+                if ( xmlHttpRequest.equalsIgnoreCase("XMLHttpRequest") )  {
+                    HttpServletResponse res = WebUtils.toHttp(response);
+                    res.sendError(401);
+                    return false;
             }
         
             return super.onAccessDenied(request, response);

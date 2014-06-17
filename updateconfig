@@ -1,4 +1,4 @@
-cd /d/myprojects/git-hub/blog
+cd /d/myprojects/github/blog
 git commit -a  -m 'update config'
 cd _layouts
 git commit -a  -m 'update config'

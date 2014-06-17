@@ -1,4 +1,4 @@
-cd /d/myprojects/git-hub/blog
+cd /d/myprojects/github/blog
 cd _posts
 git commit -a  -m 'update blog'
 git push origin gh-pages
