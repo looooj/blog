@@ -1,3 +1,4 @@
+markdown: kramdown
 pygments: true
 baseurl: /blog
 title: MyBlog
