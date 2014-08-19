@@ -22,3 +22,5 @@ openssl 版本是0.9.8zb
 
 
 LFLAGS=-ap -Tpe -x -Gn -w-dup
+
+参考http://www.cnblogs.com/chengxurensheng/archive/2012/12/11/2812464.html
