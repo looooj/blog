@@ -7,6 +7,7 @@ openssl 版本是0.9.8zb
 
     #define _timeb timeb
     #define _ftime ftime
+
 2）安装perl之后，在openssl目录下执行
 
     ms\bcb4.bat
@@ -16,6 +17,7 @@ openssl 版本是0.9.8zb
 
     修改INSTALLTOP=x:\opensslb
     修改*.[ch]  -> *.*
+
 4) make install
 
 
