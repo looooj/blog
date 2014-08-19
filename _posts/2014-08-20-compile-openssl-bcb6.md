@@ -17,7 +17,7 @@ openssl 版本是0.9.8zb
 
     修改INSTALLTOP=x:\opensslb
     修改*.[ch]  -> *.*
-
+-
 4) make install
 
 
