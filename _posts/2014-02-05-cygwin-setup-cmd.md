@@ -34,3 +34,7 @@ call pkg.bat openssh
 查找app在哪个package
 
     cygcheck -p app
+
+rebase
+
+    d:\prog\cygwin\bin\dash.exe -c '/usr/bin/rebaseall -v'
