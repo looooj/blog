@@ -1,8 +1,7 @@
 cd /d/myprojects/github/blog
+
+git add .
 git commit -a  -m 'update config'
-cd _layouts
-git commit -a  -m 'update config'
-cd ..
 git push origin gh-pages
 
 
