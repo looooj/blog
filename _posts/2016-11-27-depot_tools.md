@@ -1,6 +1,6 @@
 ---
 layout: post
-title: how to config depot_tools user proxy
+title: how to config depot_tools use proxy
 category: depot_tools
 tags: [depot_tools]
 ---
@@ -19,5 +19,3 @@ add .\depot_tools\.gitconfig
 	proxy = http://proxy_host:port
     [https]
 	proxy = http://proxy_host:port
-
-    
