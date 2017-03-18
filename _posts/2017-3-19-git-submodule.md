@@ -14,6 +14,7 @@ tags: [git]
 
 3) git submodule update --recursive --remote
 
-4) ...
+4) git status 检查 submodule 的分支
 
-5) 有用的文章http://blog.devtang.com/2013/05/08/git-submodule-issues/
+5) “submodule 项目和它的父项目本质上是 2 个独立的 git 仓库”,
+来自http://blog.devtang.com/2013/05/08/git-submodule-issues/
