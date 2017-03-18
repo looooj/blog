@@ -13,3 +13,7 @@ tags: [git]
 - 要求top-level目录下操作
 
 3) git submodule update --recursive --remote
+
+4) ...
+
+5) 有用的文章http://blog.devtang.com/2013/05/08/git-submodule-issues/
